@@ -22,6 +22,7 @@ import math
 # print("python" == "python1")
 # print(15 <= 4)  # меньше или равно
 # print(15 >= 4)  # больше или равно
+<<<<<<< HEAD
 #
 # int1 = 3
 # int1 = int1 + 1
@@ -34,5 +35,42 @@ import math
 # int3 = 3
 # int3 = int3 * 1
 # int3 *= 1
+=======
+
+# сокращённые операторы
+int1 = 3
+int1 = int1 + 1
+int1 += 1  # increment
+
+int2 = 3
+int2 = int2 - 1
+int2 -= 1  # decrement
+
+int3 = 3
+int3 = int3 * 1
+int3 *= 1  # multiply
+>>>>>>> e4ce7b9f0db58a6a923a054e160d858160ca2bca
 
 # ....
+
+# TODO оператор принадлежности (in) и сравнения (is)
+list1 = [1, 2]
+val1 = 2
+val2 = 4
+cond1 = val1 not in list1  # True
+cond2 = val2 in list1  # False
+print(cond1)
+
+str2 = "Python"
+chr1 = "p"
+cond3 = chr1 in str2  # True
+# print(cond3)
+
+# is
+x = 5  # integer
+y = 5.0  # float
+# print(x == y)
+# print(x is y)
+
+
+
